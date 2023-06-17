@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/kotak_event"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:id="@+id/tv_nomor"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppinsbold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" | "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppinsbold"
+                />
+            <TextView
+                android:id="@+id/tv_nama"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kamar Tipe A"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppinsbold"
+                />
+
+
+
+
+            <ImageView
+                android:layout_marginTop="4dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+            android:id="@+id/button_hapus"
+                android:background="@drawable/ic_bookmark_hapus"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_gambar"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_launcher_background"
+                app:riv_corner_radius="10dp"
+                android:scaleType="centerCrop"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Single Bed"
+                        android:id="@+id/tv_jenis"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/poppinssemibold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - "
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/poppinssemibold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pria"
+                        android:id="@+id/tv_kategori"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/poppinssemibold"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+
+
+                    <ImageView
+                        android:layout_marginTop="2dp"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:background="@drawable/star"/>
+                    <TextView
+                        android:layout_marginLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3.9"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:id="@+id/tv_rating"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Harga kamar"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/poppinsregular"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 500000"
+                        android:textColor="#407BFF"
+                        android:textSize="17sp"
+                        android:id="@+id/tv_harga"
+                        android:fontFamily="@font/poppinsbold"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="/ Bulan"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/poppinsregular"
+                        />
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>

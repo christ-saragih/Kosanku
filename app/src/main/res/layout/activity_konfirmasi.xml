@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".KonfirmasiActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/konfirmasi"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Pemesanan Kamar Berhasil"
+        android:textColor="#407bff"
+        android:textSize="20sp"
+        android:id="@+id/tv_harga"
+        android:fontFamily="@font/poppinssemibold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Segera lakukan konfirmasi terkait pemesanan"
+        android:textColor="#959595"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppinsregular"/>
+
+
+            <LinearLayout
+
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="15dp"
+                android:padding="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:id="@+id/konfirmasi"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bg_button"
+                    android:text="View Konfirmasi"/>
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:id="@+id/cancel"
+                    android:layout_marginBottom="20dp"
+
+                    android:textColor="#408bff"
+                    android:background="@drawable/bg_cancel"
+                    android:text="Kembali ke Home"/>
+
+            </LinearLayout>
+
+
+
+
+
+</LinearLayout>

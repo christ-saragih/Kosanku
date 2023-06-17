@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".PemesananActivity">
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="16dp"
+                android:fontFamily="@font/poppinssemibold"
+                android:textColor="@color/black"
+                android:text="My Profile"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/button_logout"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_logout" />
+
+        </RelativeLayout>
+    
+    
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#CFCFCF" />
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:id="@+id/avatar"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Muhamad Yazid"
+                    android:id="@+id/tv_nama"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="yazid@gmail.com"
+                    android:id="@+id/tv_email"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="#B5B4B4"
+                    android:textSize="16sp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/editprofile"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="25dp"
+                android:background="@drawable/ic_profil"
+                android:layout_height="25dp"/>
+            
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:textSize="14sp"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_kanan"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCFCF"
+            android:layout_marginTop="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/order"
+            android:clickable="true"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="25dp"
+                android:background="@drawable/ic_order"
+                android:layout_height="25dp"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Orders"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:textSize="14sp"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_kanan"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCFCF"
+            android:layout_marginTop="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+
+            android:id="@+id/editpassword"
+            android:clickable="true"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="25dp"
+                android:background="@drawable/ic_pass"
+                android:layout_height="25dp"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Password"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:textSize="14sp"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_kanan"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCFCF"
+            android:layout_marginTop="2dp" />
+
+
+
+
+
+
+    </LinearLayout>
+    
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bottomNavigationView"
+    app:menu="@menu/bottom_nav_menu"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/kotak_bottomnavbar"
+    app:itemTextColor="@color/color_selector"
+    app:itemIconTint="@color/color_selector"
+    app:labelVisibilityMode="unlabeled"
+        />
+</RelativeLayout>

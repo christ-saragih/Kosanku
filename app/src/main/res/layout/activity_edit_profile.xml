@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:background="#407BFF"
+
+                >
+
+                <ImageView
+                    android:id="@+id/button_back"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ic_back"
+                    android:layout_gravity="center"
+                    />
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_kategori"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Edit Profile"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <EditText
+                android:fontFamily="@font/poppinsmedium"
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Nama"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bg_form"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:fontFamily="@font/poppinsmedium"
+                android:id="@+id/usernameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Username"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bg_form"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:fontFamily="@font/poppinsmedium"
+                android:id="@+id/nohpEditText"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="No Hp"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bg_form"
+                android:layout_marginTop="20dp"
+                android:inputType="number"
+                />
+
+            <EditText
+                android:fontFamily="@font/poppinsmedium"
+                android:id="@+id/alamatEditText"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Alamat"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bg_form"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:fontFamily="@font/poppinsmedium"
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bg_form"
+                android:layout_marginTop="20dp"
+                />
+
+
+
+            <Button
+                android:background="@drawable/bg_button"
+                android:id="@+id/updateButton"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:textColor="#ffffff"
+                android:text="Update" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

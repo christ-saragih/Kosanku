@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Atribut-atribut lain dalam tema -->
+
+        <!-- Tambahkan atribut colorSurface -->
+        <item name="colorSurface">#FFFFFF</item>
+    </style>
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">#FF9191</item>
+        <item name="colorSecondary">#6A3D3D</item>
+    </style>
+
+    <style name="SnackbarTheme">
+        <item name="android:textColor">#DF4D4D</item>
+    </style>
+
+</resources>

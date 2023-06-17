@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="@drawable/kotak_putih_kecil"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="80dp"
+            >
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_gambar"
+                android:layout_width="170dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_launcher_background"
+                app:riv_corner_radius="10dp"
+                android:scaleType="centerCrop"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/kotak_abu_kecil"
+                    android:text="Pria"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:id="@+id/tv_kategori"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3.9"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:id="@+id/tv_rating"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="12dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_height="12dp"
+                    android:background="@drawable/star"/>
+            </LinearLayout>
+            <TextView
+                android:paddingLeft="10dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:id="@+id/tv_nama"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kamar Pria Tipe A"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:paddingLeft="10dp"
+                android:fontFamily="@font/poppinsregular"
+                android:id="@+id/tv_jenis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Single Bed"
+                android:textSize="11sp"
+                android:textColor="#BCBCBC"/>
+
+
+        </LinearLayout>
+
+
+
+

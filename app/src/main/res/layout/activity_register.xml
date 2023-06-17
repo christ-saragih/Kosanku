@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Create a new account"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+
+
+
+        <EditText
+            android:fontFamily="@font/poppinsmedium"
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Nama"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_form"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:fontFamily="@font/poppinsmedium"
+            android:id="@+id/usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Username"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_form"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:fontFamily="@font/poppinsmedium"
+            android:id="@+id/nohpEditText"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="No Hp"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_form"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:fontFamily="@font/poppinsmedium"
+            android:id="@+id/alamatEditText"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Alamat"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_form"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:fontFamily="@font/poppinsmedium"
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_form"
+            android:layout_marginTop="20dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_form">
+            <EditText
+                android:fontFamily="@font/poppinsmedium"
+                android:id="@+id/passwordEditText"
+                android:background="#00000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="14sp"
+                />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:id="@+id/passwordIcon"
+                android:layout_marginEnd="20dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_eye"/>
+
+        </RelativeLayout>
+
+
+        <Button
+            android:background="@drawable/bg_button"
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#ffffff"
+            android:text="Daftar" />
+        <LinearLayout
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?  "
+                android:fontFamily="@font/poppinsmedium"
+                />
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign In"
+                android:textColor="#407BFF"
+                android:fontFamily="@font/poppinsmedium"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
